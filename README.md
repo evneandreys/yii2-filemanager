@@ -11,13 +11,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require evneandreys\yii2-filemanager "dev-master"
+php composer.phar require evneandreys/yii2-filemanager "*"
 ```
 
 or add
 
 ```
-"evneandreys\yii2-filemanager": "dev-master"
+"evneandreys/yii2-filemanager": "*"
 ```
 
 to the require section of your `composer.json` file.

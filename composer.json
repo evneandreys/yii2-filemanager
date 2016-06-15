@@ -16,7 +16,8 @@
             "homepage": "http://3js.name"
         }
     ],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "support": {
         "source": "https://github.com/evneandreys/yii2-filemanager",
         "issues": "https://github.com/evneandreys/yii2-filemanager/issues"
