@@ -7,7 +7,7 @@
     "authors": [
         {
             "name": "June See",
-            "email": "june.see@evneandreys.com",
+            "email": "june.see@dpodium.com",
             "homepage": "http://www.dpodium.com"
         },
         {
@@ -16,8 +16,6 @@
             "homepage": "http://3js.name"
         }
     ],
-    "minimum-stability": "dev",
-    "prefer-stable": true,
     "support": {
         "source": "https://github.com/evneandreys/yii2-filemanager",
         "issues": "https://github.com/evneandreys/yii2-filemanager/issues"
