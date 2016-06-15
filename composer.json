@@ -1,0 +1,41 @@
+{
+    "name": "evneandreys/yii2-filemanager",
+    "type": "yii2-extension",
+    "description": "A file manager for Yii2. Allow user to manage files from any location as well as browsing files within the application.",
+    "keywords": ["yii2", "file", "manager", "filemanager", "browse", "widget", "EVNE", "Scherban Andrey", "3js.name"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "June See",
+            "email": "june.see@evneandreys.com",
+            "homepage": "http://www.dpodium.com"
+        },
+        {
+            "name": "Andrey Scherban",
+            "email": "01@3js.name",
+            "homepage": "http://3js.name"
+        }
+    ],
+    "minimum-stability": "stable",
+    "support": {
+        "source": "https://github.com/evneandreys/yii2-filemanager",
+        "issues": "https://github.com/evneandreys/yii2-filemanager/issues"
+    },
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "2.0.*",
+        "yiisoft/yii2-imagine": "*",
+        "aws/aws-sdk-php": "3.*",
+        "FortAwesome/Font-Awesome": "*",
+        "kartik-v/yii2-widgets": "*",
+        "kartik-v/yii2-widget-activeform": "*",
+        "kartik-v/yii2-widget-fileinput": "*",
+        "kartik-v/yii2-editable": "*",
+        "kartik-v/yii2-grid": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "evneandreys\\yii2_filemanager\\": ""
+        }
+    }
+}
