@@ -4,7 +4,7 @@
  * @Author: Scherban Andrey
  */
 
-namespace evneandreys\yii2_filemanager\models;
+namespace evneandreys\filemanager\models;
 
 use Yii;
 

@@ -4,14 +4,14 @@
  * @Author: Scherban Andrey
  */
 
-namespace evneandreys\yii2_filemanager\components;
+namespace evneandreys\filemanager\components;
 
 use yii\base\Object;
 use yii\helpers\Html;
 
 /**
  * Class GridBox
- * @package evneandreys\yii2_filemanager\components
+ * @package evneandreys\filemanager\components
  */
 class GridBox extends Object {
 

@@ -34,7 +34,7 @@
     },
     "autoload": {
         "psr-4": {
-            "evneandreys\\yii2_filemanager\\": ""
+            "evneandreys\\filemanager\\": ""
         }
     }
 }

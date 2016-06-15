@@ -4,7 +4,7 @@
  * @Author: Scherban Andrey
  */
 
-namespace evneandreys\yii2_filemanager\components;
+namespace evneandreys\filemanager\components;
 
 use Aws\S3\S3Client;
 use Aws\S3\Exception\S3Exception;
@@ -12,7 +12,7 @@ use yii\base\InvalidConfigException;
 
 /**
  * Class S3
- * @package evneandreys\yii2_filemanager\components
+ * @package evneandreys\filemanager\components
  */
 class S3 {
 

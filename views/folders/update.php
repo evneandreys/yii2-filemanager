@@ -3,7 +3,7 @@
 use yii\helpers\Html;
 
 /* @var $this yii\web\View */
-/* @var $model evneandreys\yii2_filemanager\models\Folders */
+/* @var $model evneandreys\filemanager\models\Folders */
 
 $this->title = 'Update Folder: ' . ' ' . $model->category;
 $this->params['breadcrumbs'][] = ['label' => Yii::t('filemanager', 'Media Folder'), 'url' => ['index']];

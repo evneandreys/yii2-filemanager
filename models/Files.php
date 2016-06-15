@@ -1,6 +1,6 @@
 <?php
 
-namespace evneandreys\yii2_filemanager\models;
+namespace evneandreys\filemanager\models;
 
 use Yii;
 use yii\db\ActiveRecord;

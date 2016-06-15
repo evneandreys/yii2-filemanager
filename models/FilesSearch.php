@@ -4,15 +4,17 @@
  * @Author: Scherban Andrey
  */
 
-namespace evneandreys\yii2_filemanager\models;
+namespace evneandreys\filemanager\models;
 
 use Yii;
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
-use evneandreys\yii2_filemanager\models\Files;
+use evneandreys\filemanager\models\Files;
+
 
 /**
- * FilesSearch represents the model behind the search form about `evneandreys\yii2_filemanager\models\Files`.
+ * Class FilesSearch
+ * @package evneandreys\filemanager\models
  */
 class FilesSearch extends Files {
 

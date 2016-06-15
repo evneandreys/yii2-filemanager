@@ -4,9 +4,9 @@
  * @Author: Scherban Andrey
  */
 
-namespace evneandreys\yii2_filemanager\controllers;
+namespace evneandreys\filemanager\controllers;
 
-use evneandreys\yii2_filemanager\components\GridBox;
+use evneandreys\filemanager\components\GridBox;
 use Yii;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
@@ -16,10 +16,10 @@ use yii\helpers\Json;
 use yii\web\UploadedFile;
 use yii\helpers\ArrayHelper;
 use yii\imagine\Image;
-use evneandreys\yii2_filemanager\components\Filemanager;
-use evneandreys\yii2_filemanager\FilemanagerAsset;
-use evneandreys\yii2_filemanager\components\S3;
-use evneandreys\yii2_filemanager\widgets\Gallery;
+use evneandreys\filemanager\components\Filemanager;
+use evneandreys\filemanager\FilemanagerAsset;
+use evneandreys\filemanager\components\S3;
+use evneandreys\filemanager\widgets\Gallery;
 
 /**
  * FilesController implements the CRUD actions for Files model.

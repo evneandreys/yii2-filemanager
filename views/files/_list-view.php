@@ -22,7 +22,7 @@ use kartik\grid\GridView;
                         if ($model->dimension) {
                             $fileType = 'image';
                         }
-                        return evneandreys\yii2_filemanager\components\Filemanager::getThumbnail($fileType, $model->object_url . $model->src_file_name);
+                        return evneandreys\filemanager\components\Filemanager::getThumbnail($fileType, $model->object_url . $model->src_file_name);
                     }
                 ],
                 'caption',

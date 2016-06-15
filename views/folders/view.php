@@ -8,7 +8,7 @@ use yii\helpers\Html;
 use yii\widgets\DetailView;
 
 /* @var $this yii\web\View */
-/* @var $model evneandreys\yii2_filemanager\models\Folders */
+/* @var $model evneandreys\filemanager\models\Folders */
 
 $this->title = $model->category;
 $this->params['breadcrumbs'][] = ['label' => Yii::t('filemanager', 'Media Folder'), 'url' => ['index']];

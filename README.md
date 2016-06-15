@@ -42,7 +42,7 @@ return [
                 'class' => '\kartik\grid\Module'
             ],
             'filemanager' => [
-                'class' => 'evneandreys\yii2_filemanager\Module',
+                'class' => 'evneandreys\filemanager\Module',
                 'storage' => ['local'],
                 // This configuration will be used in 'filemanager/files/upload'
                 // To support dynamic multiple upload
@@ -76,7 +76,7 @@ return [
                 'class' => '\kartik\grid\Module'
             ],
             'filemanager' => [ // do not change module to other name
-                'class' => 'evneandreys\yii2_filemanager\Module',
+                'class' => 'evneandreys\filemanager\Module',
                 // This configuration will be used in 'filemanager/files/upload'
                 // To support dynamic multiple upload
                 // Default multiple upload is true, max file to upload is 10
@@ -121,7 +121,7 @@ In order to use File Manager Browse feature:
 ```php
     use yii\helpers\Html;
     use yii\widgets\ActiveForm;
-    use evneandreys\yii2_filemanager\widgets\FileBrowse;
+    use evneandreys\filemanager\widgets\FileBrowse;
 
     // This is just an example to upload a banner
     $form = ActiveForm::begin();

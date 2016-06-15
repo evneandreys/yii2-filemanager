@@ -4,14 +4,14 @@
  * @Author: Scherban Andrey
  */
 
-namespace evneandreys\yii2_filemanager\controllers;
+namespace evneandreys\filemanager\controllers;
 
 use Yii;
 use yii\data\ActiveDataProvider;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
-use evneandreys\yii2_filemanager\FilemanagerAsset;
+use evneandreys\filemanager\FilemanagerAsset;
 
 /**
  * FoldersController implements the CRUD actions for Folders model.

@@ -1,13 +1,13 @@
 <?php
 
-namespace evneandreys\yii2_filemanager\components;
+namespace evneandreys\filemanager\components;
 
 use Yii;
 use yii\helpers\Html;
 
 /**
  * Class Filemanager
- * @package evneandreys\yii2_filemanager\components
+ * @package evneandreys\filemanager\components
  */
 class Filemanager {
 

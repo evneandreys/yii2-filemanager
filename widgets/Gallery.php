@@ -4,17 +4,17 @@
  * @Author: Scherban Andrey
  */
 
-namespace evneandreys\yii2_filemanager\widgets;
+namespace evneandreys\filemanager\widgets;
 
 use yii\helpers\Html;
 use yii\widgets\BaseListView;
-use evneandreys\yii2_filemanager\FilemanagerAsset;
-use evneandreys\yii2_filemanager\components\GridBox;
+use evneandreys\filemanager\FilemanagerAsset;
+use evneandreys\filemanager\components\GridBox;
 
 
 /**
  * Class Gallery
- * @package evneandreys\yii2_filemanager\widgets
+ * @package evneandreys\filemanager\widgets
  */
 class Gallery extends BaseListView {
 

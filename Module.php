@@ -4,13 +4,20 @@
  * @Author: Scherban Andrey
  */
 
-namespace common\modules\manager;
+namespace evneandreys\filemanager;
 
 use Yii;
 use yii\helpers\BaseFileHelper;
 
+/**
+ * Class Module
+ * @package evneandreys\filemanager
+ */
 class Module extends \yii\base\Module {
 
+    /**
+     * @var string
+     */
     public $directory = '@webroot';
 
     /**
@@ -30,6 +37,9 @@ class Module extends \yii\base\Module {
      * ];
      */
     public $storage = ['local'];
+    /**
+     * @var string
+     */
     public $cache = 'cache';
 
     /**
@@ -37,19 +47,28 @@ class Module extends \yii\base\Module {
      * Configure to use own models function
      */
     public $models = [
-        'files' => 'evneandreys\yii2_filemanager\models\Files',
-        'filesSearch' => 'evneandreys\yii2_filemanager\models\FilesSearch',
-        'filesRelationship' => 'evneandreys\yii2_filemanager\models\FilesRelationship',
-        'filesTag' => 'evneandreys\yii2_filemanager\models\FilesTag',
-        'folders' => 'evneandreys\yii2_filemanager\models\Folders',
+        'files' => 'evneandreys\filemanager\models\Files',
+        'filesSearch' => 'evneandreys\filemanager\models\FilesSearch',
+        'filesRelationship' => 'evneandreys\filemanager\models\FilesRelationship',
+        'filesTag' => 'evneandreys\filemanager\models\FilesTag',
+        'folders' => 'evneandreys\filemanager\models\Folders',
     ];
+    /**
+     * @var array
+     */
     public $acceptedFilesType = [
         'image/jpeg',
         'image/png',
         'image/gif',
         'application/pdf'
     ];
+    /**
+     * @var int
+     */
     public $maxFileSize = 8; // MB
+    /**
+     * @var array
+     */
     public $thumbnailSize = [120, 120]; // width, height
     /**
      * This configuration will be used in 'filemanager/files/upload'
@@ -62,6 +81,9 @@ class Module extends \yii\base\Module {
         'maxFileCount' => 10
     ];
 
+    /**
+     *
+     */
     public function init() {
         Yii::$app->i18n->translations['filemanager*'] = [
             'class' => 'yii\i18n\PhpMessageSource',
@@ -70,6 +92,9 @@ class Module extends \yii\base\Module {
         parent::init();
     }
 
+    /**
+     * @return array
+     */
     public function getMimeType() {
         $extensions = $result = [];
         foreach ($this->acceptedFilesType as $mimeType) {

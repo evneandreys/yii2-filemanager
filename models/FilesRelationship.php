@@ -4,10 +4,10 @@
  * @Author: Scherban Andrey
  */
 
-namespace evneandreys\yii2_filemanager\models;
+namespace evneandreys\filemanager\models;
 
 use Yii;
-use evneandreys\yii2_filemanager\models\FilesTag;
+use evneandreys\filemanager\models\FilesTag;
 
 /**
  * This is the model class for table "files_relationship".

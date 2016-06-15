@@ -1,12 +1,12 @@
 <?php
 
-namespace evneandreys\yii2_filemanager;
+namespace evneandreys\filemanager;
 
 use yii\web\AssetBundle;
 
 /**
  * Class FilemanagerAsset
- * @package evneandreys\yii2_filemanager
+ * @package evneandreys\filemanager
  */
 class FilemanagerAsset extends AssetBundle {
 

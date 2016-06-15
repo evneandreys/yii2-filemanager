@@ -4,12 +4,12 @@
  * @Author: Scherban Andrey
  */
 
-use evneandreys\yii2_filemanager\FilemanagerAsset;
+use evneandreys\filemanager\FilemanagerAsset;
 use kartik\widgets\ActiveForm;
 use kartik\widgets\FileInput;
 use yii\helpers\Url;
 
-if ($uploadType == \evneandreys\yii2_filemanager\components\Filemanager::TYPE_MODAL) {
+if ($uploadType == \evneandreys\filemanager\components\Filemanager::TYPE_MODAL) {
     FilemanagerAsset::register($this);
 }
 

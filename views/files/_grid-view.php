@@ -4,8 +4,8 @@
  * @Author: Scherban Andrey
  */
 
-use evneandreys\yii2_filemanager\widgets\Gallery;
-use evneandreys\yii2_filemanager\components\Filemanager;
+use evneandreys\filemanager\widgets\Gallery;
+use evneandreys\filemanager\components\Filemanager;
 use yii\helpers\ArrayHelper;
 
 $colClass = ($uploadType == Filemanager::TYPE_MODAL) ? 'col-sm-6 col-xs-12' : 'col-xs-12';

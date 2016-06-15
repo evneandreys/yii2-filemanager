@@ -1,12 +1,12 @@
 <?php
 
-namespace evneandreys\yii2_filemanager\components;
+namespace evneandreys\filemanager\components;
 
 use yii\helpers\Html;
 
 /**
  * Class FilemanagerHelper
- * @package evneandreys\yii2_filemanager\components
+ * @package evneandreys\filemanager\components
  */
 class FilemanagerHelper {
 

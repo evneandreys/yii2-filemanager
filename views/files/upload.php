@@ -4,7 +4,7 @@
  * @Author: Scherban Andrey
  */
 
-use evneandreys\yii2_filemanager\components\Filemanager;
+use evneandreys\filemanager\components\Filemanager;
 use yii\helpers\Html;
 
 $this->title = Yii::t('filemanager', 'Upload New Media');

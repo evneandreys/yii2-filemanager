@@ -4,18 +4,18 @@
  * @Author: Scherban Andrey
  */
 
-namespace evneandreys\yii2_filemanager\widgets;
+namespace evneandreys\filemanager\widgets;
 
 use Yii;
 use yii\helpers\Html;
 use yii\helpers\Url;
 use yii\bootstrap\Tabs;
-use evneandreys\yii2_filemanager\FilemanagerAsset;
+use evneandreys\filemanager\FilemanagerAsset;
 
 
 /**
  * Class FileBrowse
- * @package evneandreys\yii2_filemanager\widgets
+ * @package evneandreys\filemanager\widgets
  */
 class FileBrowse extends \yii\widgets\InputWidget {
 
@@ -113,7 +113,7 @@ class FileBrowse extends \yii\widgets\InputWidget {
             } else {
                 $src = $file->object_url . $file->src_file_name;
             }
-            $gridBox = new \evneandreys\yii2_filemanager\components\GridBox([
+            $gridBox = new \evneandreys\filemanager\components\GridBox([
                 'owner' => $this,
                 'src' => $src,
                 'fileType' => $fileType,

@@ -6,7 +6,7 @@
 
 /* @var $this yii\web\View */
 /* @var $dataProvider yii\data\ActiveDataProvider */
-/* @var $model common\modules\filemanager\models\FilesSearchs */
+/* @var $model evneandreys\filemanager\models\FilesSearch */
 
 $this->title = Yii::t('filemanager', 'Media Gallery');
 $this->params['breadcrumbs'][] = $this->title;
