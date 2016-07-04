@@ -4,7 +4,7 @@
     "description": "A file manager for Yii2. Allow user to manage files from any location as well as browsing files within the application.",
     "keywords": ["yii2", "file", "manager", "filemanager", "browse", "widget", "EVNE", "Scherban Andrey", "3js.name", "3JStudio"],
     "license": "MIT",
-    "version": "1.0.2",
+    "version": "1.0.0",
     "authors": [
         {
             "name": "June See",
@@ -22,8 +22,6 @@
         "issues": "https://github.com/evneandreys/yii2-filemanager/issues"
     },
     "require": {
-        "cartalyst/sentry": "1.0.2",
-        "minimum-stability": "dev",
         "php": ">=5.4.0",
         "yiisoft/yii2": "2.0.*",
         "yiisoft/yii2-imagine": "*",
