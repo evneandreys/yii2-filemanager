@@ -1,7 +1,11 @@
 <?php
 /**
- * Copyright (c) 2016.
- * @Author: Scherban Andrey
+ * *
+ *  * @package   yii2-filemanager
+ *  * @author    Andrey Scherban <01@3js.name>
+ *  * @copyright Copyright &copy; Andrey Scherban, 3js.name, 2014 - 2016
+ *  * @version   1.0.1
+ *  
  */
 
 use kartik\editable\Editable;

@@ -24,8 +24,8 @@ to the require section of your `composer.json` file.
 
 Execute migration here:
 ```
-yii migrate --migrationPath=@evneandreys/filemanager/migrations
-yii migrate/down --migrationPath=@evneandreys/filemanager/migrations
+yii migrate --migrationPath=@vendor/evneandreys/yii2-filemanager/migrations
+yii migrate/down --migrationPath=@vendor/evneandreys/yii2-filemanager/migrations
 ```
 
 Usage

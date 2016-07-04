@@ -1,4 +1,13 @@
-// general css
+/*
+ * *
+ *  * @package   yii2-filemanager
+ *  * @author    Andrey Scherban <01@3js.name>
+ *  * @copyright Copyright &copy; Andrey Scherban, 3js.name, 2014 - 2016
+ *  * @version   1.0.1
+ *
+ */
+
+/* // general css */
 .fa-icon {
     text-align: center;
 }
@@ -49,7 +58,7 @@
 .btn-copy:hover, .btn-copy:active {
     background-color: #ccc;
 }
-// accordion
+/* // accordion */
 .fm-accordion a.collapse-toggle {
     display: block;
     width: 100%;
@@ -58,7 +67,7 @@
     text-decoration: none;
 }
 
-// edit bar (after upload complete)
+/* // edit bar (after upload complete) */
 .separator-box {
     padding: 0;
     box-shadow: none;
@@ -101,13 +110,13 @@
     display: inline-block;
 }
 
-// modal
+/* // modal */
 .fm-modal.modal > .modal-dialog > .modal-content > .modal-body {
-    max-height: 450px; // try with percentage 
+    max-height: 450px; /* // try with percentage */
     overflow-y: auto;
 }
 
-// Gallery gridview
+/* // Gallery gridview */
 div.fm-gallery {
     margin-left: 0;
 }
