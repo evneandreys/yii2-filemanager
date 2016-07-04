@@ -22,7 +22,7 @@
         "issues": "https://github.com/evneandreys/yii2-filemanager/issues"
     },
     "require": {
-        "cartalyst/sentry": "1.0.*@dev",
+        "cartalyst/sentry": "1.0.2",
         "minimum-stability": "dev",
         "php": ">=5.4.0",
         "yiisoft/yii2": "2.0.*",
