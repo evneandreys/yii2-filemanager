@@ -90,7 +90,7 @@ class Gallery extends BaseListView {
             }
 
             $toolArray = $this->_getToolArray($model->file_id);
-            $items .= $this->renderGridBox($src, $fileType, $toolArray);
+            $items .= $this->renderGridBox($src, $fileType, $toolArray, $model->alt_text);
         }
 
         return $items;
@@ -115,14 +115,16 @@ class Gallery extends BaseListView {
      * @param $src
      * @param $fileType
      * @param $toolArray
+     * @param $alt_text
      * @return mixed
      */
-    public function renderGridBox($src, $fileType, $toolArray) {
+    public function renderGridBox($src, $fileType, $toolArray, $alt_text) {
         $gridBox = new GridBox([
             'owner' => $this,
             'src' => $src,
             'fileType' => $fileType,
-            'toolArray' => $toolArray
+            'toolArray' => $toolArray,
+            'alt_text' => $alt_text
         ]);
 
         return $gridBox->renderGridBox();

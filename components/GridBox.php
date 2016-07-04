@@ -6,6 +6,7 @@
 
 namespace evneandreys\filemanager\components;
 
+use common\models\Files;
 use yii\base\Object;
 use yii\helpers\Html;
 
@@ -33,6 +34,8 @@ class GridBox extends Object {
      * null refers a file type other than image
      */
     public $fileType;
+
+    public $alt_text;
 
     /**
      * @var array
@@ -91,7 +94,14 @@ class GridBox extends Object {
         $toolbox = $this->renderToolbox();
         $hoverWrapper = Html::tag('div', '', ['class' => 'hover-wrapper']);
 
-        return Html::tag('div', $fileThumb . $hoverWrapper . $toolbox, ['class' => 'fm-section-item']);
+        if(isset($this->owner->model)) {
+            $this->alt_text = \evneandreys\filemanager\models\Files::findOne($this->owner->model->file_id)->alt_text;
+        }
+
+        return Html::tag('div', $fileThumb . $hoverWrapper . $toolbox, [
+            'class' => 'fm-section-item',
+            'data-name' => $this->alt_text
+        ]);
     }
 
     /**

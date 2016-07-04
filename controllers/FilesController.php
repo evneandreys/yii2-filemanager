@@ -369,8 +369,9 @@ class FilesController extends Controller {
             'src' => $src,
             'fileType' => $fileType,
             'toolArray' => $toolArray,
-            'thumbnailSize' => $this->module->thumbnailSize
+            'thumbnailSize' => $this->module->thumbnailSize,
         ]);
+
         $selectedFileView = $gridBox->renderGridBox();
 
         Yii::$app->response->format = Response::FORMAT_JSON;
