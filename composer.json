@@ -22,7 +22,7 @@
     },
     "require": {
         "cartalyst/sentry": "1.2.*@dev",
-        "minimum-stability": "stable",
+        "minimum-stability": "dev",
         "prefer-stable" : true,
         "php": ">=5.4.0",
         "yiisoft/yii2": "2.0.*",
