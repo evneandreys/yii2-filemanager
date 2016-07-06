@@ -241,3 +241,18 @@ div.fm-gallery {
         padding-right: 0;
     }
 }
+
+.fm-section-item:before {
+    content: attr(data-name);
+    font-size: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 4px;
+    padding-bottom: 5px;
+    background-color: rgba(0, 0, 0, 0.34);
+    position: relative;
+    z-index: 10;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
