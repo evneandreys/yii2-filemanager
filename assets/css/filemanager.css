@@ -242,7 +242,7 @@ div.fm-gallery {
     }
 }
 
-.fm-section-item:before {
+.fm-section-item[data-name]:before {
     content: attr(data-name);
     font-size: 10px;
     padding-left: 5px;

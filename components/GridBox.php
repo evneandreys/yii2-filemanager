@@ -99,7 +99,7 @@ class GridBox extends Object {
         $hoverWrapper = Html::tag('div', '', ['class' => 'hover-wrapper']);
 
         if(isset($this->owner->model)) {
-            $this->alt_text = \evneandreys\filemanager\models\Files::findOne($this->owner->model->file_id)->alt_text;
+            $this->alt_text = (isset($this->owner->model->file_id)) ? \evneandreys\filemanager\models\Files::findOne($this->owner->model->file_id)->alt_text : false;
         }
 
         return Html::tag('div', $fileThumb . $hoverWrapper . $toolbox, [
