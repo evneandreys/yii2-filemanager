@@ -77,11 +77,12 @@ var gridBox = function () {
         });
 
         jQuery(document).on('click', '.tool-box .fm-remove', function () {
-            var inputId = $browse.element.find(".fm-btn-browse").attr('for');
-            $browse.element.removeClass('attached');
-            $browse.element.find('.fm-browse-selected-view').html('');
-            $browse.element.find('#' + inputId).val('');
-            $browse.element.find('#' + inputId).blur();
+            var el = $(this).closest('.fm-browse-selected');
+            var inputId = el.find(".fm-btn-browse").attr('for');
+            el.removeClass('attached');
+            el.find('.fm-browse-selected-view').html('');
+            el.find('#' + inputId).val('');
+            el.find('#' + inputId).blur();
         });
 
         jQuery(document).on('click', '.fm-section-item', function (e) {
