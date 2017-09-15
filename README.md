@@ -33,6 +33,22 @@ Usage
 
 Once the extension is installed, simply modify your application configuration as follows:
 
+Configure i18n component:
+
+```php
+'components' => [
+    // ...
+    'i18n' => [
+	'translations' => [
+	    '*' => [
+		'class' => 'yii\i18n\PhpMessageSource',
+	    ],
+	],
+    ],
+    // ...
+],
+```
+
 Upload file in local:
 
 ```php
